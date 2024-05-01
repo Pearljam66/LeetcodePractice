@@ -115,6 +115,27 @@
 		2641FF952BDCF3C600DB3249 /* LeetcodePracticeTests */ = {
 			isa = PBXGroup;
 			children = (
+				2641FFC32BE2558600DB3249 /* Prim'sAlgorithm */,
+				2641FFC22BE2556E00DB3249 /* Dijkstra'sAlgorithm */,
+				2641FFC12BE2554300DB3249 /* Depth-FirstSearch */,
+				2641FFC02BE2553500DB3249 /* Breadth-FirstSearch */,
+				2641FFBF2BE2552700DB3249 /* Graphs */,
+				2641FFBE2BE2551D00DB3249 /* QuickSort */,
+				2641FFBD2BE2551000DB3249 /* HeapSort */,
+				2641FFBC2BE254EE00DB3249 /* RadixSort */,
+				2641FFBB2BE254E500DB3249 /* MergeSort */,
+				2641FFBA2BE254D000DB3249 /* O(n^2)SortingAlgorithms */,
+				2641FFB92BE254BC00DB3249 /* PriorityQueues */,
+				2641FFB82BE254AF00DB3249 /* Heaps */,
+				2641FFB72BE254A400DB3249 /* BinarySearch */,
+				2641FFB62BE2549C00DB3249 /* Tries */,
+				2641FFB52BE2548E00DB3249 /* AVLTrees */,
+				2641FFB42BE2546E00DB3249 /* BinarySearchTrees */,
+				2641FFB32BE2546200DB3249 /* BinaryTrees */,
+				2641FFB22BE2545700DB3249 /* Trees */,
+				2641FFB12BE2544B00DB3249 /* Queues */,
+				2641FFB02BE2544100DB3249 /* LinkedLists */,
+				2641FFAF2BE2543700DB3249 /* Stacks */,
 				2641FF962BDCF3C600DB3249 /* LeetcodePracticeTests.swift */,
 			);
 			path = LeetcodePracticeTests;
@@ -127,6 +148,153 @@
 				2641FFA22BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift */,
 			);
 			path = LeetcodePracticeUITests;
+			sourceTree = "<group>";
+		};
+		2641FFAF2BE2543700DB3249 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		2641FFB02BE2544100DB3249 /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		2641FFB12BE2544B00DB3249 /* Queues */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queues;
+			sourceTree = "<group>";
+		};
+		2641FFB22BE2545700DB3249 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		2641FFB32BE2546200DB3249 /* BinaryTrees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BinaryTrees;
+			sourceTree = "<group>";
+		};
+		2641FFB42BE2546E00DB3249 /* BinarySearchTrees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BinarySearchTrees;
+			sourceTree = "<group>";
+		};
+		2641FFB52BE2548E00DB3249 /* AVLTrees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AVLTrees;
+			sourceTree = "<group>";
+		};
+		2641FFB62BE2549C00DB3249 /* Tries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tries;
+			sourceTree = "<group>";
+		};
+		2641FFB72BE254A400DB3249 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		2641FFB82BE254AF00DB3249 /* Heaps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Heaps;
+			sourceTree = "<group>";
+		};
+		2641FFB92BE254BC00DB3249 /* PriorityQueues */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PriorityQueues;
+			sourceTree = "<group>";
+		};
+		2641FFBA2BE254D000DB3249 /* O(n^2)SortingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "O(n^2)SortingAlgorithms";
+			sourceTree = "<group>";
+		};
+		2641FFBB2BE254E500DB3249 /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
+		2641FFBC2BE254EE00DB3249 /* RadixSort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RadixSort;
+			sourceTree = "<group>";
+		};
+		2641FFBD2BE2551000DB3249 /* HeapSort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HeapSort;
+			sourceTree = "<group>";
+		};
+		2641FFBE2BE2551D00DB3249 /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
+		2641FFBF2BE2552700DB3249 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		2641FFC02BE2553500DB3249 /* Breadth-FirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Breadth-FirstSearch";
+			sourceTree = "<group>";
+		};
+		2641FFC12BE2554300DB3249 /* Depth-FirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Depth-FirstSearch";
+			sourceTree = "<group>";
+		};
+		2641FFC22BE2556E00DB3249 /* Dijkstra'sAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Dijkstra'sAlgorithm";
+			sourceTree = "<group>";
+		};
+		2641FFC32BE2558600DB3249 /* Prim'sAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Prim'sAlgorithm";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
