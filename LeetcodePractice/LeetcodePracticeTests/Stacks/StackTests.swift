@@ -7,7 +7,7 @@
 
 import XCTest
 
-// Chapter 4: Stacks
+// Chapter 4 & 5: Stacks
 // Last in, First out
 
 public struct Stack<Element> {
