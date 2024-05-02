@@ -15,6 +15,7 @@
 		2641FFA12BDCF3C600DB3249 /* LeetcodePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFA02BDCF3C600DB3249 /* LeetcodePracticeUITests.swift */; };
 		2641FFA32BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFA22BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift */; };
 		2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFC42BE26A7C00DB3249 /* StackTests.swift */; };
+		2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2641FFA02BDCF3C600DB3249 /* LeetcodePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeUITests.swift; sourceTree = "<group>"; };
 		2641FFA22BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2641FFC42BE26A7C00DB3249 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
+		2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		2641FFB02BE2544100DB3249 /* LinkedLists */ = {
 			isa = PBXGroup;
 			children = (
+				2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
+				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
