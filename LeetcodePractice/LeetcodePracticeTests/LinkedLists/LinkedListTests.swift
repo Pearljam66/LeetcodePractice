@@ -54,7 +54,31 @@ public struct LinkedList<Value> {
         var currentNode = head
         var currentIndex = 0
 
-        
+        while currentNode != nil && currentIndex < index {
+            currentNode = currentNode!.next
+            currentIndex += 1
+        }
+        return currentNode
+    }
+
+    public mutating func insert(_ value: Value, after node: Node<Value>) -> Node<Value> {
+        guard tail !== node else {
+            appendToTail(value)
+            return tail!
+        }
+
+        node.next = Node(value: value, next: node.next)
+        return node.next!
+    }
+
+    public func printList() {
+        var currentNode = head
+
+        while let node = currentNode {
+            print(node.value, terminator: " ")
+            currentNode = node.next
+        }
+        print()
     }
 }
 
@@ -63,8 +87,17 @@ import XCTest
 final class LinkedListTests: XCTestCase {
 
 
-    func testExample() throws {
+    func testPush() throws {
+        var list = LinkedList<Int>()
+        list.push(1)
+        list.push(2)
+        list.push(3)
 
+        list.printList()
+
+        XCTAssertEqual(list.head?.value, 3)
+        XCTAssertEqual(list.head?.next?.value, 2)
+        XCTAssertEqual(list.tail?.value, 1)
     }
 
 
