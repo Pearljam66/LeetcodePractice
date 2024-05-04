@@ -15,22 +15,16 @@ final class LinkedListTests: XCTestCase {
         list.push(2)
         list.push(3)
 
-        print("testPush")
-        list.printList()
-
         XCTAssertEqual(list.head?.value, 3)
         XCTAssertEqual(list.head?.next?.value, 2)
         XCTAssertEqual(list.tail?.value, 1)
     }
 
-    func testAppendToTail() throws {
+    func testAppend() throws {
         var list = LinkedList<Int>()
-        list.appendToTail(1)
-        list.appendToTail(2)
-        list.appendToTail(3)
-
-        print("testAppendToTail")
-        list.printList()
+        list.append(1)
+        list.append(2)
+        list.append(3)
 
         XCTAssertEqual(list.head?.value, 1)
         XCTAssertEqual(list.head?.next?.value, 2)
@@ -42,9 +36,6 @@ final class LinkedListTests: XCTestCase {
         list.push(1)
         list.push(2)
         list.push(3)
-
-        print("testNodeAtIndex")
-        list.printList()
 
         XCTAssertEqual(list.node(at: 0)?.value, 3)
         XCTAssertEqual(list.node(at: 1)?.value, 2)
@@ -63,9 +54,6 @@ final class LinkedListTests: XCTestCase {
         node = list.node(at: 2)!
         list.insert(69, after: node)
 
-        print("testInsertAfterNode")
-        list.printList()
-
         XCTAssertEqual(list.head?.value, 3)
         XCTAssertEqual(list.head?.next?.value, 2)
         XCTAssertEqual(list.head?.next?.next?.value, 10)
@@ -80,13 +68,8 @@ final class LinkedListTests: XCTestCase {
         list.push(66)
         XCTAssertFalse(list.isEmpty)
 
-        print("testIsEmpty")
-        list.printList()
-
         list.pop()
         XCTAssertTrue(list.isEmpty)
-
-        list.printList()
     }
 
     func testPop() throws {
@@ -94,7 +77,6 @@ final class LinkedListTests: XCTestCase {
         list.push(1)
         list.push(2)
         list.push(3)
-        list.printList()
 
         XCTAssertEqual(list.pop(), 3)
         XCTAssertEqual(list.pop(), 2)
@@ -106,24 +88,16 @@ final class LinkedListTests: XCTestCase {
         XCTAssertNil(list.tail)
     }
 
-    func testCopyNodes() throws {
+    func testRemoveLast() {
         var list = LinkedList<Int>()
-
-
-    }
-
-    func testRemoveLast() throws {
-        var list = LinkedList<Int>()
-        list.push(3)
-        list.push(2)
         list.push(1)
+        list.push(2)
+        list.push(3)
 
-        let removedValue = list.removeLast()
-        print(removedValue)
-        list.printList()
-
-        XCTAssertEqual(list.head?.value, 1)
+        XCTAssertEqual(list.removeLast(), 1)
+        XCTAssertEqual(list.head?.value, 3)
         XCTAssertEqual(list.tail?.value, 2)
+        XCTAssertNil(list.tail?.next)
     }
 
 }

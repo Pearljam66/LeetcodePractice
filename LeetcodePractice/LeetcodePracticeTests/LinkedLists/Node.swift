@@ -13,4 +13,10 @@ public class Node<Value> {
         self.value = value
         self.next = next
     }
+
+    // Update the equality check to compare references only
+    public static func == (lhs: Node<Value>, rhs: Node<Value>) -> Bool {
+        return lhs === rhs
+    }
 }
+
