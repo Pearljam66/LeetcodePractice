@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB2EE2BE656E20023BD56 /* LinkedList.swift */; };
+		260EB2F12BE657130023BD56 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB2F02BE657130023BD56 /* Node.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260EB2EE2BE656E20023BD56 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		260EB2F02BE657130023BD56 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 		2641FFB02BE2544100DB3249 /* LinkedLists */ = {
 			isa = PBXGroup;
 			children = (
+				260EB2EE2BE656E20023BD56 /* LinkedList.swift */,
+				260EB2F02BE657130023BD56 /* Node.swift */,
 				2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */,
 			);
 			path = LinkedLists;
@@ -443,7 +449,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
+				260EB2F12BE657130023BD56 /* Node.swift in Sources */,
 				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
+				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
