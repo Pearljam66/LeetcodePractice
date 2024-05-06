@@ -137,6 +137,7 @@
 		2641FF952BDCF3C600DB3249 /* LeetcodePracticeTests */ = {
 			isa = PBXGroup;
 			children = (
+				260EB3042BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift */,
 				2641FF962BDCF3C600DB3249 /* LeetcodePracticeTests.swift */,
 				260EB3002BE93F2F0023BD56 /* MajorityElementTests.swift */,
 				260EB2FC2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift */,
@@ -164,7 +165,6 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
-				260EB3042BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
