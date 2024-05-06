@@ -55,7 +55,7 @@ final class MajorityElementTests: XCTestCase {
 
     func testExample1() throws {
         let solution = Solution()
-        var nums = [3,2,3]
+        let nums = [3,2,3]
 
         let k = solution.majorityElement(nums)
 
@@ -64,7 +64,7 @@ final class MajorityElementTests: XCTestCase {
 
     func testExample2() throws {
         let solution = Solution()
-        var nums = [2,2,1,1,1,2,2]
+        let nums = [2,2,1,1,1,2,2]
 
         let k = solution.majorityElement(nums)
 

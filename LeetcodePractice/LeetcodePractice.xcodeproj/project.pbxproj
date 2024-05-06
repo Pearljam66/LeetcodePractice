@@ -14,6 +14,7 @@
 		260EB2FD2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB2FC2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift */; };
 		260EB2FF2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB2FE2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift */; };
 		260EB3012BE93F2F0023BD56 /* MajorityElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3002BE93F2F0023BD56 /* MajorityElementTests.swift */; };
+		260EB3032BE94D490023BD56 /* RotateArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3022BE94D490023BD56 /* RotateArrayTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		260EB2FC2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArrayTests.swift; sourceTree = "<group>"; };
 		260EB2FE2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArrayIITests.swift; sourceTree = "<group>"; };
 		260EB3002BE93F2F0023BD56 /* MajorityElementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElementTests.swift; sourceTree = "<group>"; };
+		260EB3022BE94D490023BD56 /* RotateArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArrayTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				260EB2FC2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift */,
 				260EB2FE2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift */,
 				260EB2FA2BE921C60023BD56 /* RemoveElementTests.swift */,
+				260EB3022BE94D490023BD56 /* RotateArrayTests.swift */,
 				2641FFC32BE2558600DB3249 /* Prim'sAlgorithm */,
 				2641FFC22BE2556E00DB3249 /* Dijkstra'sAlgorithm */,
 				2641FFC12BE2554300DB3249 /* Depth-FirstSearch */,
@@ -470,6 +473,7 @@
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
 				260EB2F12BE657130023BD56 /* Node.swift in Sources */,
 				260EB2FB2BE921C60023BD56 /* RemoveElementTests.swift in Sources */,
+				260EB3032BE94D490023BD56 /* RotateArrayTests.swift in Sources */,
 				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
