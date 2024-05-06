@@ -164,6 +164,17 @@ public struct LinkedList<Value> {
         head = prev
     }
 
+    public func findMiddleNode<T>(_ list:LinkedList<T>) -> Node<T>? {
+        var slowPointer = list.head
+        var fastPointer = list.head
+
+        while let nextFast = fastPointer?.next {
+            fastPointer = nextFast.next
+            slowPointer = slowPointer?.next
+        }
+
+        return slowPointer
+    }
 
 }
 
