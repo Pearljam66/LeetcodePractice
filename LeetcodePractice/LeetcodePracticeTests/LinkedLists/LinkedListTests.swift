@@ -100,4 +100,15 @@ final class LinkedListTests: XCTestCase {
         XCTAssertNil(list.tail?.next)
     }
 
+    func testReverse() {
+        var list = LinkedList<Int>()
+        list.append(1)
+        list.append(2)
+        list.append(3)
+
+        list.reverse()
+
+        XCTAssertEqual(list.description, "3 -> 2 -> 1  ")
+    }
+
 }

@@ -146,6 +146,25 @@ public struct LinkedList<Value> {
 
         return nodeCopy
     }
+
+    public mutating func reverse() {
+        var prev: Node<Value>? = nil
+        var current = head
+        var next: Node<Value>?
+
+        while current != nil {
+            next = current?.next
+            current?.next = prev
+            prev = current
+            current = next
+        }
+
+        // Update head and tail after reversing
+        tail = head
+        head = prev
+    }
+
+
 }
 
 extension LinkedList: CustomStringConvertible {
