@@ -176,7 +176,23 @@ public struct LinkedList<Value> {
         return slowPointer
     }
 
+    public mutating func reverseList() {
+        tail = head
+        var prev = head
+        var current = head?.next
+        prev?.next = nil
+
+        while current != nil {
+            let next = current?.next
+            current?.next = prev
+            prev = current
+            current = next
+        }
+        head = prev
+    }
+
 }
+
 
 extension LinkedList: CustomStringConvertible {
 

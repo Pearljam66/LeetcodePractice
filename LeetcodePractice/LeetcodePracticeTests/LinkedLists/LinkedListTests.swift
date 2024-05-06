@@ -117,10 +117,21 @@ final class LinkedListTests: XCTestCase {
         list.push(2)
         list.push(1)
 
-        let middleNode = list.findMiddleNode(list)
-        print(middleNode?.description)
+        let middleNode = list.findMiddleNode(list)!
+        print(middleNode.description)
 
-        XCTAssertEqual(middleNode?.description, "2 -> 3")
+        XCTAssertEqual(middleNode.description, "2 -> 3")
+    }
+
+    func testReverseList() throws {
+        var list = LinkedList<Int>()
+        list.push(3)
+        list.push(2)
+        list.push(1)
+
+        list.reverseList()
+
+        XCTAssertEqual(list.description, "3 -> 2 -> 1")
     }
 
 }
