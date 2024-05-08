@@ -71,7 +71,6 @@ final class RemoveDuplicatesFromSortedArrayTests: XCTestCase {
     func testExample1() throws {
         let solution = Solution()
         var nums = [1,1,2]
-        let numsCount: Int
 
         let k = solution.removeDuplicates(&nums)
 
