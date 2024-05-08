@@ -22,7 +22,7 @@ public struct LinkedList<Value> {
 
     public mutating func push(_ value: Value) {
         copyNodes()
-        head = Node(value: value, next: head)
+        head = Node(value: value)
         if tail == nil {
             tail = head
         }
@@ -55,7 +55,7 @@ public struct LinkedList<Value> {
             append(value)
             return tail!
         }
-        node.next = Node(value: value, next: node.next)
+        node.next = Node(value: value)
         return node.next!
     }
 
