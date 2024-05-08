@@ -32,6 +32,9 @@
 		260EB3282BEC1AF30023BD56 /* QueueRingBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */; };
 		260EB32A2BEC1BFA0023BD56 /* QueueStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3292BEC1BFA0023BD56 /* QueueStack.swift */; };
 		260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB32B2BEC20430023BD56 /* QueueStackTests.swift */; };
+		260EB32E2BEC22BE0023BD56 /* QueueTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB32D2BEC22BE0023BD56 /* QueueTwo.swift */; };
+		260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB32F2BEC23450023BD56 /* TreeNode.swift */; };
+		260EB3322BEC27E20023BD56 /* TreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3312BEC27E20023BD56 /* TreeNodeTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -86,6 +89,9 @@
 		260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBufferTests.swift; sourceTree = "<group>"; };
 		260EB3292BEC1BFA0023BD56 /* QueueStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStack.swift; sourceTree = "<group>"; };
 		260EB32B2BEC20430023BD56 /* QueueStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStackTests.swift; sourceTree = "<group>"; };
+		260EB32D2BEC22BE0023BD56 /* QueueTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTwo.swift; sourceTree = "<group>"; };
+		260EB32F2BEC23450023BD56 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		260EB3312BEC27E20023BD56 /* TreeNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +149,14 @@
 			isa = PBXGroup;
 			children = (
 				2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		260EB3332BEC27ED0023BD56 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				260EB3312BEC27E20023BD56 /* TreeNodeTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -271,6 +285,9 @@
 		2641FFB22BE2545700DB3249 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
+				260EB3332BEC27ED0023BD56 /* Tests */,
+				260EB32D2BEC22BE0023BD56 /* QueueTwo.swift */,
+				260EB32F2BEC23450023BD56 /* TreeNode.swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -550,11 +567,14 @@
 				260EB2FB2BE921C60023BD56 /* RemoveElementTests.swift in Sources */,
 				260EB3032BE94D490023BD56 /* RotateArrayTests.swift in Sources */,
 				260EB3202BEC13130023BD56 /* RingBuffer.swift in Sources */,
+				260EB32E2BEC22BE0023BD56 /* QueueTwo.swift in Sources */,
+				260EB3322BEC27E20023BD56 /* TreeNodeTests.swift in Sources */,
 				260EB3072BE95C180023BD56 /* BestTimeToBuyAndSellStockIITests.swift in Sources */,
 				260EB30D2BEBC1AA0023BD56 /* Queue.swift in Sources */,
 				260EB30F2BEBC4F10023BD56 /* QueueArray.swift in Sources */,
 				260EB31A2BEC0C5A0023BD56 /* DoublyLinkedList.swift in Sources */,
 				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
+				260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */,
 				260EB31C2BEC0EB10023BD56 /* QueueLinkedListTests.swift in Sources */,
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
