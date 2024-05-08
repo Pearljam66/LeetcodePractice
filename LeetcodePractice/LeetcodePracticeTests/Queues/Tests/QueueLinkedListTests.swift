@@ -32,7 +32,7 @@ final class QueueLinkedListTests: XCTestCase {
     }
 
     func testDequeue() throws {
-        var queue = QueueLinkedList<Character>()
+        let queue = QueueLinkedList<Character>()
         XCTAssertNil(queue.dequeue())
         queue.enqueue("a")
         queue.enqueue("b")

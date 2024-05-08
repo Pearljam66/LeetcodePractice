@@ -23,6 +23,7 @@ public struct QueueArray<T>: Queue {
     }
 
     // Insert an element at the back of the queue. Returns true if the operation was successful.
+    @discardableResult
     public mutating func enqueue(_ element: T) -> Bool {
         array.append(element)
         return true

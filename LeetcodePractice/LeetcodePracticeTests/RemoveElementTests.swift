@@ -57,6 +57,7 @@ import XCTest
 final class RemoveElementTests: XCTestCase {
 
     class RemoveElementSolution {
+        @discardableResult
         func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
 
             let numberToRemove = val

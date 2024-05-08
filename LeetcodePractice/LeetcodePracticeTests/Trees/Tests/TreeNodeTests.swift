@@ -32,7 +32,7 @@ final class TreeNodeTests: XCTestCase {
 
         var result = [Int]()
         root.forEachDepthFirst { node in
-            result.append(node.value as! Int)
+            result.append(node.value)
         }
 
         XCTAssertEqual(result, [1, 2, 4, 3])

@@ -11,6 +11,7 @@ public class QueueLinkedList<T>: Queue {
     public init() {}
 
     // Insert an element at the back of the queue. Returns true if the operation was successful.
+    @discardableResult
     public func enqueue(_ element: T) -> Bool {
         list.append(element)
         return true
