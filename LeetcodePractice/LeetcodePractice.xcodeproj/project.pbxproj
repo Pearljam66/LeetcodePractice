@@ -30,6 +30,8 @@
 		260EB3242BEC174B0023BD56 /* RingBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3232BEC174B0023BD56 /* RingBufferTests.swift */; };
 		260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3252BEC18C50023BD56 /* QueueRingBuffer.swift */; };
 		260EB3282BEC1AF30023BD56 /* QueueRingBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */; };
+		260EB32A2BEC1BFA0023BD56 /* QueueStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3292BEC1BFA0023BD56 /* QueueStack.swift */; };
+		260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB32B2BEC20430023BD56 /* QueueStackTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -82,6 +84,8 @@
 		260EB3232BEC174B0023BD56 /* RingBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBufferTests.swift; sourceTree = "<group>"; };
 		260EB3252BEC18C50023BD56 /* QueueRingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBuffer.swift; sourceTree = "<group>"; };
 		260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBufferTests.swift; sourceTree = "<group>"; };
+		260EB3292BEC1BFA0023BD56 /* QueueStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStack.swift; sourceTree = "<group>"; };
+		260EB32B2BEC20430023BD56 /* QueueStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStackTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				260EB31B2BEC0EB10023BD56 /* QueueLinkedListTests.swift */,
 				260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */,
 				260EB3232BEC174B0023BD56 /* RingBufferTests.swift */,
+				260EB32B2BEC20430023BD56 /* QueueStackTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				260EB3172BEC08AF0023BD56 /* QueueLinkedList.swift */,
 				260EB3252BEC18C50023BD56 /* QueueRingBuffer.swift */,
 				260EB31F2BEC13130023BD56 /* RingBuffer.swift */,
+				260EB3292BEC1BFA0023BD56 /* QueueStack.swift */,
 			);
 			path = Queues;
 			sourceTree = "<group>";
@@ -538,6 +544,7 @@
 				260EB3182BEC08AF0023BD56 /* QueueLinkedList.swift in Sources */,
 				260EB2F72BE8F3340023BD56 /* Helpers.swift in Sources */,
 				260EB3012BE93F2F0023BD56 /* MajorityElementTests.swift in Sources */,
+				260EB32A2BEC1BFA0023BD56 /* QueueStack.swift in Sources */,
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
 				260EB2F12BE657130023BD56 /* Node.swift in Sources */,
 				260EB2FB2BE921C60023BD56 /* RemoveElementTests.swift in Sources */,
@@ -552,6 +559,7 @@
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
+				260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */,
 				260EB3092BEA4A090023BD56 /* JumpGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
