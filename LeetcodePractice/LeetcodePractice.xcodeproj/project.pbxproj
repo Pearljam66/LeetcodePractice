@@ -28,6 +28,8 @@
 		260EB31E2BEC11250023BD56 /* DoublyLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB31D2BEC11250023BD56 /* DoublyLinkedListTests.swift */; };
 		260EB3202BEC13130023BD56 /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB31F2BEC13130023BD56 /* RingBuffer.swift */; };
 		260EB3242BEC174B0023BD56 /* RingBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3232BEC174B0023BD56 /* RingBufferTests.swift */; };
+		260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3252BEC18C50023BD56 /* QueueRingBuffer.swift */; };
+		260EB3282BEC1AF30023BD56 /* QueueRingBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -78,6 +80,8 @@
 		260EB31D2BEC11250023BD56 /* DoublyLinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedListTests.swift; sourceTree = "<group>"; };
 		260EB31F2BEC13130023BD56 /* RingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
 		260EB3232BEC174B0023BD56 /* RingBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBufferTests.swift; sourceTree = "<group>"; };
+		260EB3252BEC18C50023BD56 /* QueueRingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBuffer.swift; sourceTree = "<group>"; };
+		260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBufferTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,8 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				260EB31D2BEC11250023BD56 /* DoublyLinkedListTests.swift */,
-				260EB31B2BEC0EB10023BD56 /* QueueLinkedListTests.swift */,
 				260EB3142BEBE9D60023BD56 /* QueueArrayTests.swift */,
+				260EB31B2BEC0EB10023BD56 /* QueueLinkedListTests.swift */,
+				260EB3272BEC1AF30023BD56 /* QueueRingBufferTests.swift */,
 				260EB3232BEC174B0023BD56 /* RingBufferTests.swift */,
 			);
 			path = Tests;
@@ -251,6 +256,7 @@
 				260EB3192BEC0C5A0023BD56 /* DoublyLinkedList.swift */,
 				260EB30E2BEBC4F10023BD56 /* QueueArray.swift */,
 				260EB3172BEC08AF0023BD56 /* QueueLinkedList.swift */,
+				260EB3252BEC18C50023BD56 /* QueueRingBuffer.swift */,
 				260EB31F2BEC13130023BD56 /* RingBuffer.swift */,
 			);
 			path = Queues;
@@ -528,6 +534,7 @@
 				260EB3052BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift in Sources */,
 				260EB3242BEC174B0023BD56 /* RingBufferTests.swift in Sources */,
 				260EB2FD2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift in Sources */,
+				260EB3282BEC1AF30023BD56 /* QueueRingBufferTests.swift in Sources */,
 				260EB3182BEC08AF0023BD56 /* QueueLinkedList.swift in Sources */,
 				260EB2F72BE8F3340023BD56 /* Helpers.swift in Sources */,
 				260EB3012BE93F2F0023BD56 /* MajorityElementTests.swift in Sources */,
@@ -542,6 +549,7 @@
 				260EB31A2BEC0C5A0023BD56 /* DoublyLinkedList.swift in Sources */,
 				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
 				260EB31C2BEC0EB10023BD56 /* QueueLinkedListTests.swift in Sources */,
+				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
 				260EB3092BEA4A090023BD56 /* JumpGameTests.swift in Sources */,
