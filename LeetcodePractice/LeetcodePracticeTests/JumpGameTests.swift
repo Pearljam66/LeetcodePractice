@@ -55,14 +55,14 @@ final class JumpGameTests: XCTestCase {
 
     func testExample1() throws {
         let solution = Solution()
-        var nums = [2,3,1,1,4]
+        let nums = [2,3,1,1,4]
 
         XCTAssertTrue(solution.canJump(nums))
     }
 
     func testExample2() throws {
         let solution = Solution()
-        var nums = [3,2,1,0,4]
+        let nums = [3,2,1,0,4]
 
         XCTAssertFalse(solution.canJump(nums))
     }
