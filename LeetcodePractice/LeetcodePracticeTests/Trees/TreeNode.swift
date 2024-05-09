@@ -28,5 +28,17 @@ extension TreeNode {
             ($0.forEachDepthFirst(visit: visit))
         }
     }
+}
 
+extension TreeNode {
+    // Visits each of the nodes in level-order.
+    public func forEachLevelOrder(visit: (TreeNode) -> Void) {
+        visit(self)
+        var queue = QueueTwo<TreeNode>()
+        children.forEach { queue.enqueue($0) }
+        while let node = queue.dequeue() {
+            visit(node)
+            node.children.forEach { queue.enqueue($0) }
+        }
+    }
 }

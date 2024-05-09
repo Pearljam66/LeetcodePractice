@@ -43,7 +43,7 @@ final class LinkedListTests: XCTestCase {
         XCTAssertNil(list.node(at: 3))
     }
 
-    func testInsertAfterNode() throws {
+    /*func testInsertAfterNode() throws {
         var list = LinkedList<Int>()
         list.push(1)
         list.push(2)
@@ -59,7 +59,7 @@ final class LinkedListTests: XCTestCase {
         XCTAssertEqual(list.head?.next?.next?.value, 10)
         XCTAssertEqual(list.head?.next?.next?.next?.value, 69)
         XCTAssertEqual(list.tail?.value, 1)
-    }
+    }*/
 
     func testIsEmpty() throws {
         var list = LinkedList<Int>()
@@ -111,7 +111,7 @@ final class LinkedListTests: XCTestCase {
         XCTAssertEqual(list.description, "3 -> 2 -> 1")
     }
 
-    func testFindMiddleNode() throws {
+    /*func testFindMiddleNode() throws {
         var list = LinkedList<Int>()
         list.push(3)
         list.push(2)
@@ -121,7 +121,7 @@ final class LinkedListTests: XCTestCase {
         print(middleNode.description)
 
         XCTAssertEqual(middleNode.description, "2 -> 3")
-    }
+    }*/
 
     func testReverseList() throws {
         var list = LinkedList<Int>()

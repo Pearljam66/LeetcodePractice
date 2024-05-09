@@ -37,5 +37,23 @@ final class TreeNodeTests: XCTestCase {
 
         XCTAssertEqual(result, [1, 2, 4, 3])
     }
+
+    func testForEachLevelOrder() {
+        let root = TreeNode(value: 1)
+        let child1 = TreeNode(value: 2)
+        let child2 = TreeNode(value: 3)
+        let child3 = TreeNode(value: 4)
+
+        root.add(child1)
+        root.add(child2)
+        child1.add(child3)
+
+        var result = [Int]()
+        root.forEachLevelOrder { node in
+            result.append(node.value)
+        }
+
+        XCTAssertEqual(result, [1, 2, 3, 4])
+    }
 }
 
