@@ -35,6 +35,8 @@
 		260EB32E2BEC22BE0023BD56 /* QueueTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB32D2BEC22BE0023BD56 /* QueueTwo.swift */; };
 		260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB32F2BEC23450023BD56 /* TreeNode.swift */; };
 		260EB3322BEC27E20023BD56 /* TreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3312BEC27E20023BD56 /* TreeNodeTests.swift */; };
+		260EB3362BEE5A9A0023BD56 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3352BEE5A9A0023BD56 /* BinaryNode.swift */; };
+		260EB3392BEE5F050023BD56 /* BinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3382BEE5F050023BD56 /* BinaryTreeTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -93,6 +95,8 @@
 		260EB32F2BEC23450023BD56 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		260EB3312BEC27E20023BD56 /* TreeNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeTests.swift; sourceTree = "<group>"; };
 		260EB3342BEC2BF60023BD56 /* LeetcodePractice.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LeetcodePractice.xctestplan; sourceTree = "<group>"; };
+		260EB3352BEE5A9A0023BD56 /* BinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
+		260EB3382BEE5F050023BD56 /* BinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +162,14 @@
 			isa = PBXGroup;
 			children = (
 				260EB3312BEC27E20023BD56 /* TreeNodeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		260EB3372BEE5EE10023BD56 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				260EB3382BEE5F050023BD56 /* BinaryTreeTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -297,6 +309,8 @@
 		2641FFB32BE2546200DB3249 /* BinaryTrees */ = {
 			isa = PBXGroup;
 			children = (
+				260EB3372BEE5EE10023BD56 /* Tests */,
+				260EB3352BEE5A9A0023BD56 /* BinaryNode.swift */,
 			);
 			path = BinaryTrees;
 			sourceTree = "<group>";
@@ -555,6 +569,7 @@
 				260EB2FF2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
 				260EB3152BEBE9D60023BD56 /* QueueArrayTests.swift in Sources */,
 				260EB30B2BEA9D3B0023BD56 /* JumpGameIITests.swift in Sources */,
+				260EB3392BEE5F050023BD56 /* BinaryTreeTests.swift in Sources */,
 				260EB31E2BEC11250023BD56 /* DoublyLinkedListTests.swift in Sources */,
 				260EB3052BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift in Sources */,
 				260EB3242BEC174B0023BD56 /* RingBufferTests.swift in Sources */,
@@ -574,6 +589,7 @@
 				260EB3072BE95C180023BD56 /* BestTimeToBuyAndSellStockIITests.swift in Sources */,
 				260EB30D2BEBC1AA0023BD56 /* Queue.swift in Sources */,
 				260EB30F2BEBC4F10023BD56 /* QueueArray.swift in Sources */,
+				260EB3362BEE5A9A0023BD56 /* BinaryNode.swift in Sources */,
 				260EB31A2BEC0C5A0023BD56 /* DoublyLinkedList.swift in Sources */,
 				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
 				260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */,

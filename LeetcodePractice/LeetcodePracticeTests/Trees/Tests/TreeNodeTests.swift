@@ -71,4 +71,3 @@ final class TreeNodeTests: XCTestCase {
         XCTAssertNil(root.search(25))
     }
 }
-
