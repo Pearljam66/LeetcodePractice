@@ -40,6 +40,7 @@
 		260EB33B2BEE74740023BD56 /* H-IndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB33A2BEE74740023BD56 /* H-IndexTests.swift */; };
 		260EB33D2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB33C2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift */; };
 		260EB3B02BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3AF2BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift */; };
+		260EB3B22BEEAC5A0023BD56 /* GasStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -103,6 +104,7 @@
 		260EB33A2BEE74740023BD56 /* H-IndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-IndexTests.swift"; sourceTree = "<group>"; };
 		260EB33C2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InsertDeleteGetRandomO(1)Tests.swift"; sourceTree = "<group>"; };
 		260EB3AF2BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelfTests.swift; sourceTree = "<group>"; };
+		260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
+				260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
@@ -609,6 +612,7 @@
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
+				260EB3B22BEEAC5A0023BD56 /* GasStationTests.swift in Sources */,
 				260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */,
 				260EB3092BEA4A090023BD56 /* JumpGameTests.swift in Sources */,
 			);
