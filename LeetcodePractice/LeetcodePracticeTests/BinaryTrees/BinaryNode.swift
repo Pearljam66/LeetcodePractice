@@ -39,9 +39,27 @@ extension BinaryNode: CustomStringConvertible {
 
 extension BinaryNode {
 
+    // In-Order traversal visits the nodes of a binary tree in the following order, starting from the root node:
+    // - If the current node has a left child, recursively visit this child first.
+    // - Then, visit the node itself.
+    // - If the current node has a right child, recursively visit this child.
     public func traverseInOrder(visit: (Element) -> Void) {
         leftChild?.traverseInOrder(visit: visit)
         visit(value)
         rightChild?.traverseInOrder(visit: visit)
+    }
+
+    // Pre-order traversal always visits the current node first, then recursively visits the left and right child.
+    public func traversePreOrder(visit: (Element) -> Void) {
+        visit(value)
+        leftChild?.traversePreOrder(visit: visit)
+        rightChild?.traversePreOrder(visit: visit)
+    }
+
+    // Post-order traversal only visits the current node after the left and right child have been visited recursively.
+    public func traversePostOrder(visit: (Element) -> Void) {
+        leftChild?.traversePostOrder(visit: visit)
+        rightChild?.traversePostOrder(visit: visit)
+        visit(value)
     }
 }
