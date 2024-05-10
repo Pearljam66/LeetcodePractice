@@ -26,6 +26,18 @@ final class BinaryTreeTests: XCTestCase {
         return seven
     }()
 
+    // Challenge 1
+    func height<T>(of node: BinaryNode<T>?) -> Int {
+        guard let node = node else {
+            return -1
+        }
+
+        let leftHeight = height(of: node.leftChild)
+        let rightHeight = height(of: node.rightChild)
+
+        return 1 + max(leftHeight, rightHeight)
+    }
+
     func testBinaryNodeDescriptionSingleNode() {
         // Create a single node binary tree
         let rootNode = BinaryNode(value: 10)
@@ -61,6 +73,10 @@ final class BinaryTreeTests: XCTestCase {
         }
 
         XCTAssertEqual(result, [0, 5, 1, 8, 9, 7])
+    }
+
+    func testHeight() {
+        XCTAssertEqual(height(of: tree), 2)
     }
 
 }
