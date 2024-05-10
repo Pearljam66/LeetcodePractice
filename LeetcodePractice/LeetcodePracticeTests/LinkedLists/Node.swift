@@ -10,8 +10,9 @@ public class Node<T> {
     public var next: Node<T>?
     public var previous: Node<T>?
 
-    public init(value: T) {
+    public init(value: T, next: Node? = nil) {
         self.value = value
+        self.next = next
     }
 
 }
