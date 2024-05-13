@@ -92,5 +92,39 @@ final class BinarySearchTreeTests: XCTestCase {
         XCTAssertFalse(bst.contains(74))
         XCTAssertTrue(bst.contains(1))
     }
+
+    func testRemove() {
+        var tree = BinarySearchTree<Int>()
+        tree.insert(5)
+        tree.insert(3)
+        tree.insert(8)
+        tree.insert(2)
+        tree.insert(4)
+        tree.insert(7)
+        tree.insert(9)
+
+        // Remove a leaf node (2)
+        tree.remove(2)
+        XCTAssertFalse(tree.contains(2))
+
+        // Remove a node with one child (3)
+        tree.remove(3)
+        XCTAssertFalse(tree.contains(3))
+        XCTAssertTrue(tree.contains(4))
+
+        // Remove a node with two children (8)
+        tree.remove(8)
+        XCTAssertFalse(tree.contains(8))
+        XCTAssertTrue(tree.contains(7))
+        XCTAssertTrue(tree.contains(9))
+
+        // Remove the root node (5)
+        tree.remove(5)
+        XCTAssertFalse(tree.contains(5))
+        XCTAssertTrue(tree.contains(4))
+        XCTAssertTrue(tree.contains(7))
+        XCTAssertTrue(tree.contains(9))
+    }
+
 }
 
