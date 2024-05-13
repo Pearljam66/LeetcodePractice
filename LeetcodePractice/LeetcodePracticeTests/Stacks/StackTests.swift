@@ -21,6 +21,7 @@ public struct Stack<Element> {
     }
 
     // Removes the top item from the stack.
+    @discardableResult
     public mutating func pop() -> Element? {
         storage.popLast()
     }
@@ -123,7 +124,7 @@ final class StackTests: XCTestCase {
     }
 
     func testCheckParenthesis() throws {
-        var stack = Stack<String>()
+        let stack = Stack<String>()
         XCTAssertTrue(stack.checkParenthesis("h((e))llo(world)()"))
         XCTAssertFalse(stack.checkParenthesis("(hello world"))
     }

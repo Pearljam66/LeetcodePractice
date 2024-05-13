@@ -63,3 +63,7 @@ extension BinarySearchTree {
     }
 
 }
+
+private extension BinaryNodeTwo {
+    
+}
