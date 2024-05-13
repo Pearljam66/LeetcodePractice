@@ -43,6 +43,9 @@
 		260EB3B22BEEAC5A0023BD56 /* GasStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */; };
 		260EB3B42BF237930023BD56 /* CandyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B32BF237930023BD56 /* CandyTests.swift */; };
 		260EB3B62BF269CA0023BD56 /* TrappingRainWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B52BF269CA0023BD56 /* TrappingRainWaterTests.swift */; };
+		260EB3B82BF272C30023BD56 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B72BF272C30023BD56 /* BinarySearchTree.swift */; };
+		260EB3BA2BF2734B0023BD56 /* BinaryNodeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B92BF2734B0023BD56 /* BinaryNodeTwo.swift */; };
+		260EB3BC2BF27CEB0023BD56 /* BinarySearchTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3BB2BF27CEB0023BD56 /* BinarySearchTreeTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -109,6 +112,9 @@
 		260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationTests.swift; sourceTree = "<group>"; };
 		260EB3B32BF237930023BD56 /* CandyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTests.swift; sourceTree = "<group>"; };
 		260EB3B52BF269CA0023BD56 /* TrappingRainWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWaterTests.swift; sourceTree = "<group>"; };
+		260EB3B72BF272C30023BD56 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		260EB3B92BF2734B0023BD56 /* BinaryNodeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNodeTwo.swift; sourceTree = "<group>"; };
+		260EB3BB2BF27CEB0023BD56 /* BinarySearchTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -182,6 +188,14 @@
 			isa = PBXGroup;
 			children = (
 				260EB3382BEE5F050023BD56 /* BinaryTreeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		260EB3BD2BF27CF40023BD56 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				260EB3BB2BF27CEB0023BD56 /* BinarySearchTreeTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -336,6 +350,9 @@
 		2641FFB42BE2546E00DB3249 /* BinarySearchTrees */ = {
 			isa = PBXGroup;
 			children = (
+				260EB3BD2BF27CF40023BD56 /* Tests */,
+				260EB3B72BF272C30023BD56 /* BinarySearchTree.swift */,
+				260EB3B92BF2734B0023BD56 /* BinaryNodeTwo.swift */,
 			);
 			path = BinarySearchTrees;
 			sourceTree = "<group>";
@@ -584,10 +601,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260EB3BA2BF2734B0023BD56 /* BinaryNodeTwo.swift in Sources */,
 				260EB2FF2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
 				260EB3152BEBE9D60023BD56 /* QueueArrayTests.swift in Sources */,
 				260EB30B2BEA9D3B0023BD56 /* JumpGameIITests.swift in Sources */,
 				260EB3392BEE5F050023BD56 /* BinaryTreeTests.swift in Sources */,
+				260EB3B82BF272C30023BD56 /* BinarySearchTree.swift in Sources */,
 				260EB31E2BEC11250023BD56 /* DoublyLinkedListTests.swift in Sources */,
 				260EB3B02BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift in Sources */,
 				260EB3052BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift in Sources */,
@@ -618,6 +637,7 @@
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
 				260EB3B62BF269CA0023BD56 /* TrappingRainWaterTests.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
+				260EB3BC2BF27CEB0023BD56 /* BinarySearchTreeTests.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
 				260EB3B22BEEAC5A0023BD56 /* GasStationTests.swift in Sources */,
 				260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */,
