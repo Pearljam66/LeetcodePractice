@@ -54,6 +54,8 @@
 		260EB3CB2BF29DF00023BD56 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3CA2BF29DF00023BD56 /* Trie.swift */; };
 		260EB3CD2BF29E500023BD56 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3CC2BF29E500023BD56 /* TrieTests.swift */; };
 		260EB3CF2BF2AE020023BD56 /* IntegerToRomanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3CE2BF2AE020023BD56 /* IntegerToRomanTests.swift */; };
+		260EB3D12BF2B6260023BD56 /* LengthOfLastWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D02BF2B6260023BD56 /* LengthOfLastWordTests.swift */; };
+		260EB3D32BF2BAA50023BD56 /* LongestCommonPrefixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -131,6 +133,8 @@
 		260EB3CA2BF29DF00023BD56 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		260EB3CC2BF29E500023BD56 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
 		260EB3CE2BF2AE020023BD56 /* IntegerToRomanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRomanTests.swift; sourceTree = "<group>"; };
+		260EB3D02BF2B6260023BD56 /* LengthOfLastWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWordTests.swift; sourceTree = "<group>"; };
+		260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -286,6 +290,8 @@
 				260EB3082BEA4A090023BD56 /* JumpGameTests.swift */,
 				260EB30A2BEA9D3B0023BD56 /* JumpGameIITests.swift */,
 				2641FF962BDCF3C600DB3249 /* LeetcodePracticeTests.swift */,
+				260EB3D02BF2B6260023BD56 /* LengthOfLastWordTests.swift */,
+				260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */,
 				260EB3002BE93F2F0023BD56 /* MajorityElementTests.swift */,
 				260EB3AF2BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift */,
 				260EB2FC2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift */,
@@ -680,8 +686,10 @@
 				260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */,
 				260EB33B2BEE74740023BD56 /* H-IndexTests.swift in Sources */,
 				260EB3CD2BF29E500023BD56 /* TrieTests.swift in Sources */,
+				260EB3D32BF2BAA50023BD56 /* LongestCommonPrefixTests.swift in Sources */,
 				260EB31C2BEC0EB10023BD56 /* QueueLinkedListTests.swift in Sources */,
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
+				260EB3D12BF2B6260023BD56 /* LengthOfLastWordTests.swift in Sources */,
 				260EB3C62BF29CFA0023BD56 /* AVLTreeTests.swift in Sources */,
 				260EB3B62BF269CA0023BD56 /* TrappingRainWaterTests.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
