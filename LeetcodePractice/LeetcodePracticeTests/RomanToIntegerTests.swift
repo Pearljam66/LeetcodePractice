@@ -54,6 +54,50 @@ import XCTest
 
 final class RomanToIntegerTests: XCTestCase {
 
+    class Solution {
 
+        func romanToInt(_ s: String) -> Int {
+            var convertedIntResult = 0
+            let romanValues: [Character : Int] = ["I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000]
+            var previousValue = 0
+
+            for char in s {
+                if let value = romanValues[char] {
+                    if value > previousValue {
+                        convertedIntResult += value - (2 * previousValue)
+                    } else {
+                        convertedIntResult += value
+                    }
+                    previousValue = value
+                }
+            }
+
+            return convertedIntResult
+        }
+    }
+
+    func testExample1() {
+        let solution = Solution()
+        let s = "III"
+        let convertedInteger = 3
+
+        XCTAssertEqual(solution.romanToInt(s), convertedInteger)
+    }
+
+    func testExample2() {
+        let solution = Solution()
+        let s = "LVIII"
+        let convertedInteger = 58
+
+        XCTAssertEqual(solution.romanToInt(s), convertedInteger)
+    }
+
+    func testExample3() {
+        let solution = Solution()
+        let s = "MCMXCIV"
+        let convertedInteger = 1994
+
+        XCTAssertEqual(solution.romanToInt(s), convertedInteger)
+    }
 
 }
