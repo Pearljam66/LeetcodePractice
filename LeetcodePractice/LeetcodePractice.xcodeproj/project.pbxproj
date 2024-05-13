@@ -50,6 +50,9 @@
 		260EB3C22BF29C440023BD56 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C12BF29C440023BD56 /* AVLNode.swift */; };
 		260EB3C42BF29C520023BD56 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C32BF29C520023BD56 /* AVLTree.swift */; };
 		260EB3C62BF29CFA0023BD56 /* AVLTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C52BF29CFA0023BD56 /* AVLTreeTests.swift */; };
+		260EB3C92BF29DD20023BD56 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C82BF29DD20023BD56 /* TrieNode.swift */; };
+		260EB3CB2BF29DF00023BD56 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3CA2BF29DF00023BD56 /* Trie.swift */; };
+		260EB3CD2BF29E500023BD56 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3CC2BF29E500023BD56 /* TrieTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -123,6 +126,9 @@
 		260EB3C12BF29C440023BD56 /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
 		260EB3C32BF29C520023BD56 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		260EB3C52BF29CFA0023BD56 /* AVLTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTreeTests.swift; sourceTree = "<group>"; };
+		260EB3C82BF29DD20023BD56 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
+		260EB3CA2BF29DF00023BD56 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		260EB3CC2BF29E500023BD56 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -212,6 +218,14 @@
 			isa = PBXGroup;
 			children = (
 				260EB3C52BF29CFA0023BD56 /* AVLTreeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		260EB3C72BF29DBE0023BD56 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				260EB3CC2BF29E500023BD56 /* TrieTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -387,6 +401,9 @@
 		2641FFB62BE2549C00DB3249 /* Tries */ = {
 			isa = PBXGroup;
 			children = (
+				260EB3C72BF29DBE0023BD56 /* Tests */,
+				260EB3C82BF29DD20023BD56 /* TrieNode.swift */,
+				260EB3CA2BF29DF00023BD56 /* Trie.swift */,
 			);
 			path = Tries;
 			sourceTree = "<group>";
@@ -630,6 +647,7 @@
 				260EB3B82BF272C30023BD56 /* BinarySearchTree.swift in Sources */,
 				260EB31E2BEC11250023BD56 /* DoublyLinkedListTests.swift in Sources */,
 				260EB3B02BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift in Sources */,
+				260EB3CB2BF29DF00023BD56 /* Trie.swift in Sources */,
 				260EB3C42BF29C520023BD56 /* AVLTree.swift in Sources */,
 				260EB3052BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift in Sources */,
 				260EB3242BEC174B0023BD56 /* RingBufferTests.swift in Sources */,
@@ -649,6 +667,7 @@
 				260EB3322BEC27E20023BD56 /* TreeNodeTests.swift in Sources */,
 				260EB3072BE95C180023BD56 /* BestTimeToBuyAndSellStockIITests.swift in Sources */,
 				260EB30D2BEBC1AA0023BD56 /* Queue.swift in Sources */,
+				260EB3C92BF29DD20023BD56 /* TrieNode.swift in Sources */,
 				260EB33D2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift in Sources */,
 				260EB30F2BEBC4F10023BD56 /* QueueArray.swift in Sources */,
 				260EB3362BEE5A9A0023BD56 /* BinaryNode.swift in Sources */,
@@ -656,6 +675,7 @@
 				2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */,
 				260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */,
 				260EB33B2BEE74740023BD56 /* H-IndexTests.swift in Sources */,
+				260EB3CD2BF29E500023BD56 /* TrieTests.swift in Sources */,
 				260EB31C2BEC0EB10023BD56 /* QueueLinkedListTests.swift in Sources */,
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
 				260EB3C62BF29CFA0023BD56 /* AVLTreeTests.swift in Sources */,
