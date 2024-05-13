@@ -9,27 +9,73 @@ import XCTest
 
 final class BinarySearchTreeTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testInsert() {
+        var bst = BinarySearchTree<Int>()
+        bst.insert(5)
+        bst.insert(3)
+        bst.insert(7)
+        bst.insert(1)
+        bst.insert(4)
+        bst.insert(6)
+        bst.insert(8)
+
+        XCTAssertEqual(bst.description, """
+     ┌──8
+    ┌──7
+    │ └──6
+    5
+    │ ┌──4
+    └──3
+     └──1\n
+    """)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testTraverseInOrder() {
+        var bst = BinarySearchTree<Int>()
+        bst.insert(5)
+        bst.insert(3)
+        bst.insert(7)
+        bst.insert(1)
+        bst.insert(4)
+        bst.insert(6)
+        bst.insert(8)
+
+        var elementsInOrder = [Int]()
+        bst.root?.traverseInOrder { elementsInOrder.append($0) }
+
+        XCTAssertEqual(elementsInOrder, [1, 3, 4, 5, 6, 7, 8])
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testTraversePreOrder() {
+        var bst = BinarySearchTree<Int>()
+        bst.insert(5)
+        bst.insert(3)
+        bst.insert(7)
+        bst.insert(1)
+        bst.insert(4)
+        bst.insert(6)
+        bst.insert(8)
+
+        var elementsPreOrder = [Int]()
+        bst.root?.traversePreOrder { elementsPreOrder.append($0) }
+
+        XCTAssertEqual(elementsPreOrder, [5, 3, 1, 4, 7, 6, 8])
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    func testTraversePostOrder() {
+        var bst = BinarySearchTree<Int>()
+        bst.insert(5)
+        bst.insert(3)
+        bst.insert(7)
+        bst.insert(1)
+        bst.insert(4)
+        bst.insert(6)
+        bst.insert(8)
 
+        var elementsPostOrder = [Int]()
+        bst.root?.traversePostOrder { elementsPostOrder.append($0) }
+
+        XCTAssertEqual(elementsPostOrder, [1, 4, 3, 6, 8, 7, 5])
+    }
 }
+
