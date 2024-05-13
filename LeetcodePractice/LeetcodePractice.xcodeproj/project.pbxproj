@@ -47,6 +47,9 @@
 		260EB3BA2BF2734B0023BD56 /* BinaryNodeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3B92BF2734B0023BD56 /* BinaryNodeTwo.swift */; };
 		260EB3BC2BF27CEB0023BD56 /* BinarySearchTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3BB2BF27CEB0023BD56 /* BinarySearchTreeTests.swift */; };
 		260EB3BF2BF29B690023BD56 /* RomanToIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3BE2BF29B690023BD56 /* RomanToIntegerTests.swift */; };
+		260EB3C22BF29C440023BD56 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C12BF29C440023BD56 /* AVLNode.swift */; };
+		260EB3C42BF29C520023BD56 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C32BF29C520023BD56 /* AVLTree.swift */; };
+		260EB3C62BF29CFA0023BD56 /* AVLTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3C52BF29CFA0023BD56 /* AVLTreeTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -117,6 +120,9 @@
 		260EB3B92BF2734B0023BD56 /* BinaryNodeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNodeTwo.swift; sourceTree = "<group>"; };
 		260EB3BB2BF27CEB0023BD56 /* BinarySearchTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTests.swift; sourceTree = "<group>"; };
 		260EB3BE2BF29B690023BD56 /* RomanToIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerTests.swift; sourceTree = "<group>"; };
+		260EB3C12BF29C440023BD56 /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
+		260EB3C32BF29C520023BD56 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+		260EB3C52BF29CFA0023BD56 /* AVLTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTreeTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +204,14 @@
 			isa = PBXGroup;
 			children = (
 				260EB3BB2BF27CEB0023BD56 /* BinarySearchTreeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		260EB3C02BF29C310023BD56 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				260EB3C52BF29CFA0023BD56 /* AVLTreeTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -363,6 +377,9 @@
 		2641FFB52BE2548E00DB3249 /* AVLTrees */ = {
 			isa = PBXGroup;
 			children = (
+				260EB3C02BF29C310023BD56 /* Tests */,
+				260EB3C12BF29C440023BD56 /* AVLNode.swift */,
+				260EB3C32BF29C520023BD56 /* AVLTree.swift */,
 			);
 			path = AVLTrees;
 			sourceTree = "<group>";
@@ -605,6 +622,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260EB3BA2BF2734B0023BD56 /* BinaryNodeTwo.swift in Sources */,
+				260EB3C22BF29C440023BD56 /* AVLNode.swift in Sources */,
 				260EB2FF2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
 				260EB3152BEBE9D60023BD56 /* QueueArrayTests.swift in Sources */,
 				260EB30B2BEA9D3B0023BD56 /* JumpGameIITests.swift in Sources */,
@@ -612,6 +630,7 @@
 				260EB3B82BF272C30023BD56 /* BinarySearchTree.swift in Sources */,
 				260EB31E2BEC11250023BD56 /* DoublyLinkedListTests.swift in Sources */,
 				260EB3B02BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift in Sources */,
+				260EB3C42BF29C520023BD56 /* AVLTree.swift in Sources */,
 				260EB3052BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift in Sources */,
 				260EB3242BEC174B0023BD56 /* RingBufferTests.swift in Sources */,
 				260EB2FD2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift in Sources */,
@@ -639,6 +658,7 @@
 				260EB33B2BEE74740023BD56 /* H-IndexTests.swift in Sources */,
 				260EB31C2BEC0EB10023BD56 /* QueueLinkedListTests.swift in Sources */,
 				260EB3262BEC18C50023BD56 /* QueueRingBuffer.swift in Sources */,
+				260EB3C62BF29CFA0023BD56 /* AVLTreeTests.swift in Sources */,
 				260EB3B62BF269CA0023BD56 /* TrappingRainWaterTests.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				260EB3BC2BF27CEB0023BD56 /* BinarySearchTreeTests.swift in Sources */,
