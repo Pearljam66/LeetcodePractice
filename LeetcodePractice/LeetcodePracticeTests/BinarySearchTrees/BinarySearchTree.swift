@@ -42,3 +42,22 @@ extension BinarySearchTree {
         return node
     }
 }
+
+extension BinarySearchTree {
+
+    public func contains(_ value: Element) -> Bool {
+        guard let root = root else {
+            return false
+        }
+
+        var found = false
+
+        root.traverseInOrder {
+            if $0 == value {
+                found = true
+            }
+        }
+        return found
+    }
+
+}

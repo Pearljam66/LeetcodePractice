@@ -77,5 +77,20 @@ final class BinarySearchTreeTests: XCTestCase {
 
         XCTAssertEqual(elementsPostOrder, [1, 4, 3, 6, 8, 7, 5])
     }
+
+    func testContains() {
+        var bst = BinarySearchTree<Int>()
+        bst.insert(5)
+        bst.insert(3)
+        bst.insert(7)
+        bst.insert(1)
+        bst.insert(4)
+        bst.insert(6)
+        bst.insert(8)
+
+        XCTAssertTrue(bst.contains(8))
+        XCTAssertFalse(bst.contains(74))
+        XCTAssertTrue(bst.contains(1))
+    }
 }
 
