@@ -46,18 +46,20 @@ extension BinarySearchTree {
 extension BinarySearchTree {
 
     public func contains(_ value: Element) -> Bool {
-        guard let root = root else {
-            return false
-        }
+        var current = root
 
-        var found = false
+        while let node = current {
+            if node.value == value {
+                return true
+            }
 
-        root.traverseInOrder {
-            if $0 == value {
-                found = true
+            if value < node.value {
+                current = node.leftChild
+            } else {
+                current = node.rightChild
             }
         }
-        return found
+        return false
     }
 
 }
