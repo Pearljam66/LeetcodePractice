@@ -58,6 +58,7 @@
 		260EB3D32BF2BAA50023BD56 /* LongestCommonPrefixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */; };
 		260EB3D52BF2C1BD0023BD56 /* ReverseWordsInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D42BF2C1BD0023BD56 /* ReverseWordsInAString.swift */; };
 		260EB3D72BF3B6B00023BD56 /* ZigzagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */; };
+		260EB3D92BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -139,6 +140,7 @@
 		260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixTests.swift; sourceTree = "<group>"; };
 		260EB3D42BF2C1BD0023BD56 /* ReverseWordsInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAString.swift; sourceTree = "<group>"; };
 		260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversionTests.swift; sourceTree = "<group>"; };
+		260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfFirstOccurrenceInStringTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 				260EB3042BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift */,
 				260EB3062BE95C180023BD56 /* BestTimeToBuyAndSellStockIITests.swift */,
 				260EB3B32BF237930023BD56 /* CandyTests.swift */,
+				260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */,
 				260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */,
 				260EB33A2BEE74740023BD56 /* H-IndexTests.swift */,
 				260EB33C2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift */,
@@ -693,6 +696,7 @@
 				260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */,
 				260EB3D52BF2C1BD0023BD56 /* ReverseWordsInAString.swift in Sources */,
 				260EB33B2BEE74740023BD56 /* H-IndexTests.swift in Sources */,
+				260EB3D92BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift in Sources */,
 				260EB3CD2BF29E500023BD56 /* TrieTests.swift in Sources */,
 				260EB3D32BF2BAA50023BD56 /* LongestCommonPrefixTests.swift in Sources */,
 				260EB31C2BEC0EB10023BD56 /* QueueLinkedListTests.swift in Sources */,
