@@ -51,31 +51,23 @@ final class ZigzagConversionTests: XCTestCase {
     class Solution {
 
         func convert(_ s: String, _ numRows: Int) -> String {
-            // If the number of rows is 1 or less, the zigzag pattern will be the same as the original string so return the string.
-            if numRows < 1 {
+            if numRows <= 1 {
                 return s
             }
 
-            // Initialize an array of strings to hold the characters for each row. The number of rows is given by 'numRows'.
-            var rows = Array(repeating: "", count: min(numRows, s.count))
+            let numActualRows = min(numRows, s.count)
+            var rows = Array(repeating: "", count: numActualRows)
             var currentRow = 0
             var goingDown = false
 
-            // Iterate through each character in the input string 's'.
             for char in s {
-
-                // Track the current row and direction of movement. Start at row 0 and direction "down" (incrementing row).
-                // Append the current character to the string representing the current row.
                 rows[currentRow] += String(char)
-
-                // If the current row is the first row, change the direction to "down". If the current row is the last row, change the direction to up.
                 if currentRow == 0 || currentRow == numRows - 1 {
                     goingDown = !goingDown
                 }
-                // Update the current row based on the direction of movement.
                 currentRow += goingDown ? 1 : -1
             }
-            // After processing all characters, concatenate the strings representing each row to form the final result.
+
             return rows.joined()
         }
     }
@@ -104,6 +96,15 @@ final class ZigzagConversionTests: XCTestCase {
         let s = "A"
         let numRows = 1
         let convertedString = "A"
+
+        XCTAssertEqual(solution.convert(s, numRows), convertedString)
+    }
+
+    func testExample4() {
+        let solution = Solution()
+        let s = "AB"
+        let numRows = 1
+        let convertedString = "AB"
 
         XCTAssertEqual(solution.convert(s, numRows), convertedString)
     }
