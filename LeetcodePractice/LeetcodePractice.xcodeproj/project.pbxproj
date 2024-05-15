@@ -60,6 +60,7 @@
 		260EB3D72BF3B6B00023BD56 /* ZigzagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */; };
 		260EB3D92BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */; };
 		260EB3DB2BF3F6490023BD56 /* TextJustificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3DA2BF3F6490023BD56 /* TextJustificationTests.swift */; };
+		260EB3DD2BF401D40023BD56 /* IsPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EB3DC2BF401D40023BD56 /* IsPalindromeTests.swift */; };
 		2641FF852BDCF3C500DB3249 /* LeetcodePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */; };
 		2641FF872BDCF3C500DB3249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FF862BDCF3C500DB3249 /* ContentView.swift */; };
 		2641FF892BDCF3C600DB3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2641FF882BDCF3C600DB3249 /* Assets.xcassets */; };
@@ -143,6 +144,7 @@
 		260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversionTests.swift; sourceTree = "<group>"; };
 		260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfFirstOccurrenceInStringTests.swift; sourceTree = "<group>"; };
 		260EB3DA2BF3F6490023BD56 /* TextJustificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextJustificationTests.swift; sourceTree = "<group>"; };
+		260EB3DC2BF401D40023BD56 /* IsPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindromeTests.swift; sourceTree = "<group>"; };
 		2641FF812BDCF3C500DB3249 /* LeetcodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2641FF842BDCF3C500DB3249 /* LeetcodePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeApp.swift; sourceTree = "<group>"; };
 		2641FF862BDCF3C500DB3249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -333,6 +335,7 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
+				260EB3DC2BF401D40023BD56 /* IsPalindromeTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
@@ -675,6 +678,7 @@
 				260EB2FD2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift in Sources */,
 				260EB3282BEC1AF30023BD56 /* QueueRingBufferTests.swift in Sources */,
 				260EB3182BEC08AF0023BD56 /* QueueLinkedList.swift in Sources */,
+				260EB3DD2BF401D40023BD56 /* IsPalindromeTests.swift in Sources */,
 				260EB2F72BE8F3340023BD56 /* Helpers.swift in Sources */,
 				260EB3D72BF3B6B00023BD56 /* ZigzagConversionTests.swift in Sources */,
 				260EB3012BE93F2F0023BD56 /* MajorityElementTests.swift in Sources */,
