@@ -41,8 +41,8 @@ final class IsPalindromeTests: XCTestCase {
     class Solution {
 
         func isPalindrome(_ s: String) -> Bool {
-
-            return true
+            let cleanedString = s.lowercased().filter { $0.isLetter || $0.isNumber }
+            return cleanedString == String(cleanedString.reversed())
         }
     }
 
