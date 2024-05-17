@@ -298,6 +298,7 @@
 				260EB33A2BEE74740023BD56 /* H-IndexTests.swift */,
 				260EB33C2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift */,
 				260EB3CE2BF2AE020023BD56 /* IntegerToRomanTests.swift */,
+				260EB3DC2BF401D40023BD56 /* IsPalindromeTests.swift */,
 				260EB3082BEA4A090023BD56 /* JumpGameTests.swift */,
 				260EB30A2BEA9D3B0023BD56 /* JumpGameIITests.swift */,
 				2641FF962BDCF3C600DB3249 /* LeetcodePracticeTests.swift */,
@@ -335,7 +336,6 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
-				260EB3DC2BF401D40023BD56 /* IsPalindromeTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
