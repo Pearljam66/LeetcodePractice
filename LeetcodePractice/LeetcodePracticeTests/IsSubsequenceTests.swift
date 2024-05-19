@@ -5,31 +5,38 @@
 //  Created by Sarah Clark on 5/18/24.
 //
 
+/*
+ Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+
+ A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+ Example 1:
+ Input: s = "abc", t = "ahbgdc"
+ Output: true
+ 
+ Example 2:
+ Input: s = "axc", t = "ahbgdc"
+ Output: false
+
+ Constraints:
+
+ 0 <= s.length <= 100
+ 0 <= t.length <= 104
+ s and t consist only of lowercase English letters.
+
+
+ Follow up: Suppose there are lots of incoming s, say s1, s2, ..., sk where k >= 109, and you want to check one by one to see if t has its subsequence. In this scenario, how would you change your code?
+
+ */
+
 import XCTest
 
 final class IsSubsequenceTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    class Solution {
+
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
 
 }
