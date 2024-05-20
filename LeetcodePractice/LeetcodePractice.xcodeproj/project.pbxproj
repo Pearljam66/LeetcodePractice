@@ -71,6 +71,7 @@
 		2641FFA32BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFA22BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift */; };
 		2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFC42BE26A7C00DB3249 /* StackTests.swift */; };
 		2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */; };
+		26DE73CD2BFC14A4009F655D /* RansomNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,7 @@
 		2641FFA22BDCF3C600DB3249 /* LeetcodePracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodePracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2641FFC42BE26A7C00DB3249 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
+		26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNoteTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 				260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */,
 				260EB3002BE93F2F0023BD56 /* MajorityElementTests.swift */,
 				260EB3AF2BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift */,
+				26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */,
 				260EB2FC2BE92BBB0023BD56 /* RemoveDuplicatesFromSortedArrayTests.swift */,
 				260EB2FE2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift */,
 				260EB2FA2BE921C60023BD56 /* RemoveElementTests.swift */,
@@ -688,6 +691,7 @@
 				260EB3012BE93F2F0023BD56 /* MajorityElementTests.swift in Sources */,
 				260EB32A2BEC1BFA0023BD56 /* QueueStack.swift in Sources */,
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
+				26DE73CD2BFC14A4009F655D /* RansomNoteTests.swift in Sources */,
 				260EB2F12BE657130023BD56 /* Node.swift in Sources */,
 				260EB2FB2BE921C60023BD56 /* RemoveElementTests.swift in Sources */,
 				260EB3032BE94D490023BD56 /* RotateArrayTests.swift in Sources */,
