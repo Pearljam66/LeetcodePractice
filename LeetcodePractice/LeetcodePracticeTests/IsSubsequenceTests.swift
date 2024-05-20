@@ -34,9 +34,44 @@ import XCTest
 final class IsSubsequenceTests: XCTestCase {
 
     class Solution {
+        func isSubsequence(_ s: String, _ t: String) -> Bool {
+            // Convert strings to arrays of characters for easier indexing.
+            let sArray = Array(s)
+            let tArray = Array(t)
 
+            // Initialize two pointers for s and t.
+            var pointerS = 0
+            var pointerT = 0
+
+            // Loop through tArray while there are characters in both arrays.
+            while (pointerS < sArray.count) && (pointerT < tArray.count) {
+                if sArray[pointerS] == tArray[pointerT] {
+                    pointerS += 1
+                }
+                pointerT += 1
+            }
+
+            // If pointerS has moved through all characters in sArray, then s is a subsequence of t.
+            return pointerS == sArray.count
+        }
     }
 
+    func testExample3() {
+        let solution = Solution()
+        let s = "abc"
+        let t = "ahbgdc"
+        let output = true
 
+        XCTAssertEqual(solution.isSubsequence(s, t), output)
+    }
+
+    func testExample2() {
+        let solution = Solution()
+        let s = "axc"
+        let t = "ahbgdc"
+        let output = false
+
+        XCTAssertEqual(solution.isSubsequence(s, t), output)
+    }
 
 }
