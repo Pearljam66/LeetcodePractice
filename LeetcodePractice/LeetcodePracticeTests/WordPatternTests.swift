@@ -41,9 +41,37 @@ final class WordPatternTests: XCTestCase {
 
     class Solution {
         func wordPattern(_ pattern: String, _ s: String) -> Bool {
-            
-            return true
+            let words = s.split(separator: " ").map { String($0) }
 
+            // Check if pattern length matches the number of words
+            if pattern.count != words.count {
+                return false
+            }
+
+            var charToWord: [Character: String] = [:]
+            var wordToChar: [String: Character] = [:]
+
+            let patternChars = Array(pattern)
+
+            for (char, word) in zip(patternChars, words) {
+                if let mappedWord = charToWord[char] {
+                    if mappedWord != word {
+                        return false
+                    }
+                } else {
+                    charToWord[char] = word
+                }
+
+                if let mappedChar = wordToChar[word] {
+                    if mappedChar != char {
+                        return false
+                    }
+                } else {
+                    wordToChar[word] = char
+                }
+            }
+
+            return true
         }
     }
 
