@@ -73,6 +73,7 @@
 		2641FFC92BE2A90800DB3249 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */; };
 		26DE73CD2BFC14A4009F655D /* RansomNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */; };
 		26DE73CF2BFD211D009F655D /* IsomorphicStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73CE2BFD211D009F655D /* IsomorphicStringsTests.swift */; };
+		26DE73D12BFE8DB1009F655D /* WordPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +165,7 @@
 		2641FFC82BE2A90800DB3249 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 		26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNoteTests.swift; sourceTree = "<group>"; };
 		26DE73CE2BFD211D009F655D /* IsomorphicStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStringsTests.swift; sourceTree = "<group>"; };
+		26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPatternTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +347,7 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
+				26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
@@ -726,6 +729,7 @@
 				260EB3B62BF269CA0023BD56 /* TrappingRainWaterTests.swift in Sources */,
 				260EB2EF2BE656E20023BD56 /* LinkedList.swift in Sources */,
 				260EB3BC2BF27CEB0023BD56 /* BinarySearchTreeTests.swift in Sources */,
+				26DE73D12BFE8DB1009F655D /* WordPatternTests.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
 				260EB3B22BEEAC5A0023BD56 /* GasStationTests.swift in Sources */,
 				260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */,
