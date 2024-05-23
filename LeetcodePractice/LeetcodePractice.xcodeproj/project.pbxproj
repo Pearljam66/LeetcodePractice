@@ -325,6 +325,7 @@
 				260EB3022BE94D490023BD56 /* RotateArrayTests.swift */,
 				260EB3DA2BF3F6490023BD56 /* TextJustificationTests.swift */,
 				260EB3B52BF269CA0023BD56 /* TrappingRainWaterTests.swift */,
+				26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */,
 				260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */,
 				2641FFC32BE2558600DB3249 /* Prim'sAlgorithm */,
 				2641FFC22BE2556E00DB3249 /* Dijkstra'sAlgorithm */,
@@ -347,7 +348,6 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
-				26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
