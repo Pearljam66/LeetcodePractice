@@ -74,6 +74,7 @@
 		26DE73CD2BFC14A4009F655D /* RansomNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */; };
 		26DE73CF2BFD211D009F655D /* IsomorphicStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73CE2BFD211D009F655D /* IsomorphicStringsTests.swift */; };
 		26DE73D12BFE8DB1009F655D /* WordPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */; };
+		26DE73D32BFFC208009F655D /* ValidAnagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 		26DE73CC2BFC14A4009F655D /* RansomNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNoteTests.swift; sourceTree = "<group>"; };
 		26DE73CE2BFD211D009F655D /* IsomorphicStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStringsTests.swift; sourceTree = "<group>"; };
 		26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPatternTests.swift; sourceTree = "<group>"; };
+		26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagramTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 				2641FFB12BE2544B00DB3249 /* Queues */,
 				2641FFB02BE2544100DB3249 /* LinkedLists */,
 				2641FFAF2BE2543700DB3249 /* Stacks */,
+				26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */,
 			);
 			path = LeetcodePracticeTests;
 			sourceTree = "<group>";
@@ -700,6 +703,7 @@
 				26DE73CD2BFC14A4009F655D /* RansomNoteTests.swift in Sources */,
 				260EB2F12BE657130023BD56 /* Node.swift in Sources */,
 				260EB2FB2BE921C60023BD56 /* RemoveElementTests.swift in Sources */,
+				26DE73D32BFFC208009F655D /* ValidAnagramTests.swift in Sources */,
 				260EB3032BE94D490023BD56 /* RotateArrayTests.swift in Sources */,
 				260EB3202BEC13130023BD56 /* RingBuffer.swift in Sources */,
 				260EB32E2BEC22BE0023BD56 /* QueueTwo.swift in Sources */,
