@@ -75,6 +75,7 @@
 		26DE73CF2BFD211D009F655D /* IsomorphicStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73CE2BFD211D009F655D /* IsomorphicStringsTests.swift */; };
 		26DE73D12BFE8DB1009F655D /* WordPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */; };
 		26DE73D32BFFC208009F655D /* ValidAnagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */; };
+		26DE73E22C07588B009F655D /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E12C07588B009F655D /* TwoSumTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +169,7 @@
 		26DE73CE2BFD211D009F655D /* IsomorphicStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStringsTests.swift; sourceTree = "<group>"; };
 		26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPatternTests.swift; sourceTree = "<group>"; };
 		26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagramTests.swift; sourceTree = "<group>"; };
+		26DE73E12C07588B009F655D /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +329,7 @@
 				260EB3022BE94D490023BD56 /* RotateArrayTests.swift */,
 				260EB3DA2BF3F6490023BD56 /* TextJustificationTests.swift */,
 				260EB3B52BF269CA0023BD56 /* TrappingRainWaterTests.swift */,
+				26DE73E12C07588B009F655D /* TwoSumTests.swift */,
 				26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */,
 				26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */,
 				260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */,
@@ -697,6 +700,7 @@
 				260EB3DD2BF401D40023BD56 /* IsPalindromeTests.swift in Sources */,
 				260EB2F72BE8F3340023BD56 /* Helpers.swift in Sources */,
 				260EB3D72BF3B6B00023BD56 /* ZigzagConversionTests.swift in Sources */,
+				26DE73E22C07588B009F655D /* TwoSumTests.swift in Sources */,
 				260EB3012BE93F2F0023BD56 /* MajorityElementTests.swift in Sources */,
 				260EB32A2BEC1BFA0023BD56 /* QueueStack.swift in Sources */,
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
