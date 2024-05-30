@@ -76,6 +76,7 @@
 		26DE73D12BFE8DB1009F655D /* WordPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */; };
 		26DE73D32BFFC208009F655D /* ValidAnagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */; };
 		26DE73E22C07588B009F655D /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E12C07588B009F655D /* TwoSumTests.swift */; };
+		26DE73E42C08CCD7009F655D /* HappyNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +171,7 @@
 		26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPatternTests.swift; sourceTree = "<group>"; };
 		26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagramTests.swift; sourceTree = "<group>"; };
 		26DE73E12C07588B009F655D /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
+		26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +309,7 @@
 				260EB3B32BF237930023BD56 /* CandyTests.swift */,
 				260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */,
 				260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */,
+				26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */,
 				260EB33A2BEE74740023BD56 /* H-IndexTests.swift */,
 				260EB33C2BEE7D780023BD56 /* InsertDeleteGetRandomO(1)Tests.swift */,
 				260EB3CE2BF2AE020023BD56 /* IntegerToRomanTests.swift */,
@@ -727,6 +730,7 @@
 				260EB3302BEC23450023BD56 /* TreeNode.swift in Sources */,
 				260EB3D52BF2C1BD0023BD56 /* ReverseWordsInAString.swift in Sources */,
 				260EB33B2BEE74740023BD56 /* H-IndexTests.swift in Sources */,
+				26DE73E42C08CCD7009F655D /* HappyNumberTests.swift in Sources */,
 				260EB3D92BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift in Sources */,
 				260EB3CD2BF29E500023BD56 /* TrieTests.swift in Sources */,
 				260EB3D32BF2BAA50023BD56 /* LongestCommonPrefixTests.swift in Sources */,
