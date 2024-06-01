@@ -71,14 +71,14 @@ final class HappyNumberTests: XCTestCase {
         let solution = Solution()
         let n = 19
 
-        XCTAssertTrue(solution.isHappy(19))
+        XCTAssertTrue(solution.isHappy(n))
     }
 
     func testExample2() {
         let solution = Solution()
         let n = 2
 
-        XCTAssertFalse(solution.isHappy(2))
+        XCTAssertFalse(solution.isHappy(n))
     }
 
 }
