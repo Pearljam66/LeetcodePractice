@@ -77,6 +77,7 @@
 		26DE73D32BFFC208009F655D /* ValidAnagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */; };
 		26DE73E22C07588B009F655D /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E12C07588B009F655D /* TwoSumTests.swift */; };
 		26DE73E42C08CCD7009F655D /* HappyNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */; };
+		26DE73EA2C0E5113009F655D /* ContainsDuplicateIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +173,7 @@
 		26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagramTests.swift; sourceTree = "<group>"; };
 		26DE73E12C07588B009F655D /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberTests.swift; sourceTree = "<group>"; };
+		26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateIITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +309,7 @@
 				260EB3042BE957B60023BD56 /* BestTimeToBuyAndSellStockTests.swift */,
 				260EB3062BE95C180023BD56 /* BestTimeToBuyAndSellStockIITests.swift */,
 				260EB3B32BF237930023BD56 /* CandyTests.swift */,
+				26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */,
 				260EB3D82BF3DFFC0023BD56 /* FindIndexOfFirstOccurrenceInStringTests.swift */,
 				260EB3B12BEEAC5A0023BD56 /* GasStationTests.swift */,
 				26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */,
@@ -708,6 +711,7 @@
 				260EB32A2BEC1BFA0023BD56 /* QueueStack.swift in Sources */,
 				2641FFC52BE26A7C00DB3249 /* StackTests.swift in Sources */,
 				26DE73CD2BFC14A4009F655D /* RansomNoteTests.swift in Sources */,
+				26DE73EA2C0E5113009F655D /* ContainsDuplicateIITests.swift in Sources */,
 				260EB2F12BE657130023BD56 /* Node.swift in Sources */,
 				260EB2FB2BE921C60023BD56 /* RemoveElementTests.swift in Sources */,
 				26DE73D32BFFC208009F655D /* ValidAnagramTests.swift in Sources */,
