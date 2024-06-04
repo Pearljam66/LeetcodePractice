@@ -78,6 +78,7 @@
 		26DE73E22C07588B009F655D /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E12C07588B009F655D /* TwoSumTests.swift */; };
 		26DE73E42C08CCD7009F655D /* HappyNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */; };
 		26DE73EA2C0E5113009F655D /* ContainsDuplicateIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */; };
+		26DE73EC2C0F9D49009F655D /* SummaryRangesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 		26DE73E12C07588B009F655D /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberTests.swift; sourceTree = "<group>"; };
 		26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateIITests.swift; sourceTree = "<group>"; };
+		26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRangesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +335,7 @@
 				260EB3D42BF2C1BD0023BD56 /* ReverseWordsInAString.swift */,
 				260EB3BE2BF29B690023BD56 /* RomanToIntegerTests.swift */,
 				260EB3022BE94D490023BD56 /* RotateArrayTests.swift */,
+				26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */,
 				260EB3DA2BF3F6490023BD56 /* TextJustificationTests.swift */,
 				260EB3B52BF269CA0023BD56 /* TrappingRainWaterTests.swift */,
 				26DE73E12C07588B009F655D /* TwoSumTests.swift */,
@@ -688,6 +691,7 @@
 			files = (
 				260EB3BA2BF2734B0023BD56 /* BinaryNodeTwo.swift in Sources */,
 				260EB3C22BF29C440023BD56 /* AVLNode.swift in Sources */,
+				26DE73EC2C0F9D49009F655D /* SummaryRangesTests.swift in Sources */,
 				260EB2FF2BE9368F0023BD56 /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
 				260EB3152BEBE9D60023BD56 /* QueueArrayTests.swift in Sources */,
 				260EB30B2BEA9D3B0023BD56 /* JumpGameIITests.swift in Sources */,
