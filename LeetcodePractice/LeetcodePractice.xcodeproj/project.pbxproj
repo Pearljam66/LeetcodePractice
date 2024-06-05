@@ -79,6 +79,7 @@
 		26DE73E42C08CCD7009F655D /* HappyNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */; };
 		26DE73EA2C0E5113009F655D /* ContainsDuplicateIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */; };
 		26DE73EC2C0F9D49009F655D /* SummaryRangesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */; };
+		26DE73EE2C10E989009F655D /* ValidParethesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73ED2C10E989009F655D /* ValidParethesesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +177,7 @@
 		26DE73E32C08CCD7009F655D /* HappyNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberTests.swift; sourceTree = "<group>"; };
 		26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateIITests.swift; sourceTree = "<group>"; };
 		26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRangesTests.swift; sourceTree = "<group>"; };
+		26DE73ED2C10E989009F655D /* ValidParethesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParethesesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +342,7 @@
 				260EB3B52BF269CA0023BD56 /* TrappingRainWaterTests.swift */,
 				26DE73E12C07588B009F655D /* TwoSumTests.swift */,
 				26DE73D22BFFC208009F655D /* ValidAnagramTests.swift */,
+				26DE73ED2C10E989009F655D /* ValidParethesesTests.swift */,
 				26DE73D02BFE8DB1009F655D /* WordPatternTests.swift */,
 				260EB3D62BF3B6B00023BD56 /* ZigzagConversionTests.swift */,
 				2641FFC32BE2558600DB3249 /* Prim'sAlgorithm */,
@@ -699,6 +702,7 @@
 				260EB3B82BF272C30023BD56 /* BinarySearchTree.swift in Sources */,
 				260EB31E2BEC11250023BD56 /* DoublyLinkedListTests.swift in Sources */,
 				260EB3B02BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift in Sources */,
+				26DE73EE2C10E989009F655D /* ValidParethesesTests.swift in Sources */,
 				260EB3DF2BF900560023BD56 /* IsSubsequenceTests.swift in Sources */,
 				260EB3CB2BF29DF00023BD56 /* Trie.swift in Sources */,
 				260EB3C42BF29C520023BD56 /* AVLTree.swift in Sources */,
