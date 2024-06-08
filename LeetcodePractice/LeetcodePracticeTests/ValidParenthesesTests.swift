@@ -21,8 +21,8 @@
  Example 2:
  Input: s = "()[]{}"
  Output: true
- Example 3:
 
+ Example 3:
  Input: s = "(]"
  Output: false
 
@@ -37,18 +37,53 @@ import XCTest
 final class ValidParenthesesTests: XCTestCase {
 
     class Solution {
+        func isValid(_ s: String) -> Bool {
+            // Dictionary to hold matching pairs of brackets
+            let bracketPairs: [Character: Character] = [")": "(", "}": "{", "]": "["]
+
+            // Stack to hold opening brackets
+            var stack = [Character]()
+
+            // Iterate through each character in the string
+            for char in s {
+                // If the character is a closing bracket
+                if let matchingOpenBracket = bracketPairs[char] {
+                    // Check if the stack is empty or the top of the stack is not the matching opening bracket
+                    if stack.isEmpty || stack.removeLast() != matchingOpenBracket {
+                        return false
+                    }
+                } else {
+                    // If the character is an opening bracket, push it onto the stack
+                    stack.append(char)
+                }
+            }
+
+            // If the stack is empty, all brackets were properly closed
+            return stack.isEmpty
+        }
 
     }
 
     func testExample1() {
+        let solution = Solution()
+        let s = "()"
 
+        XCTAssertTrue(solution.isValid(s))
     }
 
     func testExample2() {
+        let solution = Solution()
+        let s = "()[]{}"
+
+        XCTAssertTrue(solution.isValid(s))
 
     }
 
     func testExample3() {
-        
+        let solution = Solution()
+        let s = "(]"
+
+        XCTAssertFalse(solution.isValid(s))
     }
+
 }
