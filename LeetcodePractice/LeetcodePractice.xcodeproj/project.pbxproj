@@ -80,6 +80,7 @@
 		26DE73EA2C0E5113009F655D /* ContainsDuplicateIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */; };
 		26DE73EC2C0F9D49009F655D /* SummaryRangesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */; };
 		26DE73EE2C10E989009F655D /* ValidParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73ED2C10E989009F655D /* ValidParenthesesTests.swift */; };
+		26DE73F02C163F65009F655D /* LinkedListCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE73EF2C163F65009F655D /* LinkedListCycleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +179,7 @@
 		26DE73E92C0E5113009F655D /* ContainsDuplicateIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateIITests.swift; sourceTree = "<group>"; };
 		26DE73EB2C0F9D49009F655D /* SummaryRangesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRangesTests.swift; sourceTree = "<group>"; };
 		26DE73ED2C10E989009F655D /* ValidParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTests.swift; sourceTree = "<group>"; };
+		26DE73EF2C163F65009F655D /* LinkedListCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +329,7 @@
 				260EB30A2BEA9D3B0023BD56 /* JumpGameIITests.swift */,
 				2641FF962BDCF3C600DB3249 /* LeetcodePracticeTests.swift */,
 				260EB3D02BF2B6260023BD56 /* LengthOfLastWordTests.swift */,
+				26DE73EF2C163F65009F655D /* LinkedListCycleTests.swift */,
 				260EB3D22BF2BAA50023BD56 /* LongestCommonPrefixTests.swift */,
 				260EB3002BE93F2F0023BD56 /* MajorityElementTests.swift */,
 				260EB3AF2BEEA4690023BD56 /* ProductOfArrayExceptSelfTests.swift */,
@@ -755,6 +758,7 @@
 				260EB3BC2BF27CEB0023BD56 /* BinarySearchTreeTests.swift in Sources */,
 				26DE73D12BFE8DB1009F655D /* WordPatternTests.swift in Sources */,
 				2641FF972BDCF3C600DB3249 /* LeetcodePracticeTests.swift in Sources */,
+				26DE73F02C163F65009F655D /* LinkedListCycleTests.swift in Sources */,
 				260EB3B22BEEAC5A0023BD56 /* GasStationTests.swift in Sources */,
 				260EB32C2BEC20430023BD56 /* QueueStackTests.swift in Sources */,
 				260EB3092BEA4A090023BD56 /* JumpGameTests.swift in Sources */,
