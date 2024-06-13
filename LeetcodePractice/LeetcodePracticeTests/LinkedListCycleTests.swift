@@ -43,19 +43,62 @@ import XCTest
 final class LinkedListCycleTests: XCTestCase {
 
     class Solution {
+        func hasCycle(_ head: ListNode?) -> Bool {
+            var slow = head
+            var fast = head
 
+            while let slowUnwrapped = slow, let fastUnwrapped = fast, let nextFast = fastUnwrapped.next {
+                slow = slowUnwrapped.next
+                fast = nextFast.next
+                if slow === fast {
+                    return true
+                }
+            }
+
+            return false
+        }
+    }
+
+    class ListNode {
+        public var val: Int
+        public var next: ListNode?
+        public init(_ val: Int) {
+            self.val = val
+            self.next = nil
+        }
     }
 
     func testExample1() {
+        let solution = Solution()
+        let head = ListNode(3)
+        let node2 = ListNode(2)
+        let node3 = ListNode(0)
+        let node4 = ListNode(-4)
 
+        head.next = node2
+        node2.next = node3
+        node3.next = node4
+        node4.next = node2  // Creates a cycle
+
+        XCTAssertTrue(solution.hasCycle(head))
     }
 
     func testExample2() {
+        let solution = Solution()
+        let head = ListNode(1)
+        let node2 = ListNode(2)
 
+        head.next = node2
+        node2.next = head  // Creates a cycle
+
+        XCTAssertTrue(solution.hasCycle(head))
     }
 
     func testExample3() {
-        
+        let solution = Solution()
+        let head = ListNode(1)
+
+        XCTAssertFalse(solution.hasCycle(head))
     }
 
 }
